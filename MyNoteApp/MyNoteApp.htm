@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyNoteApp</title>
+    <link href="fonts/f2/css/all.css" rel="stylesheet" />
+    <link href="Note.css" type = "text/css" rel="stylesheet">
+  
+</head>
+<body>
+    <div class = "content">
+        
+    <span class = "bars" ><a  href = "#" onclick="clik()"><i class=" fa fa-bars"></i></a> </span>
+        <h4 class = "head">MyNoteApp</h4>
+   
+    <div id="menu" class="top">
+        <div class="top-info">
+        <button data-modul-target = "#modul">New Note</button> <button onClick="abtAp()">About App   
+            <li class="dropdown">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, culpa! Aspernatur, recusandae fuga? Neque voluptatum architecto quos aut nesciunt, eaque corporis repellat, ut non minima provident dolorem error id atque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti similique !
+               
+            </li>
+        </button>
+        <a class="chev" onclick="che()" href = "#" ><i class="fa fa-chevron-up"></i></a>
+        <span class="times"><a href= "#" onclick="back()"><i class="fa fa-times"></i></a></span>
+    </div>
+    </div>
+        
+    </div>
+    <div class="Note-bg">
+        <h3 class="Note-h1" >Create Your Mind With Ease.</h3>
+        <div>
+       <button data-modul-target = "#modul" class="start-btn"><marquee class="marq">Start My Note</marquee></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class = "modul" id = "modul">
+            <div class="modul-header">
+                <h2 class = "title">MyNoteApp</h2>
+                 <button data-close-button  class = "close-button" >&times;</button>
+            </div>
+            <div class = "modul-body">
+                <form action = "">
+                    <input type = "text" id = "note-title" placeholder="Note Title">
+                    <textarea name = "text-area" id = "note-text" placeholder="Your note here"></textarea>
+                    <div id = "error"></div>
+                    <button id = "save-btn"><b>Save Note</b></button>
+                </form>
+            </div>
+        </div>
+        
+        <div id = "Mynote" >
+        </div>
+        <div class = "delit"></div>
+    </div>
+    <button  class="plus" data-modul-target = "#modul" ><i class="fa fa-plus"></i></button>
+    <div id = "overlay"></div>  
+
+    <script src = "Note.js" type="text/Javascript"></script>
+    <script>
+       
+    </script>
+</body>
+<html>
+
